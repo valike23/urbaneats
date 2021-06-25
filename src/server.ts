@@ -12,4 +12,4 @@ express() // You can also use Express
 		sirv('static', { dev }),
 		sapper.middleware()
 	)
-	.listen(3000);
+	.listen(PORT || 3000);
